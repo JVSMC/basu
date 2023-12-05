@@ -50,7 +50,9 @@ A proposal to reinforce recycling culture based on supermarket items.
 <a id="env"></a>
 
 ### .env File Configuration
-- Insert your API key within double quotes
+- Create a .env file in the root of your project.
+
+- Insert the following text inside the .env file and your api key inside the double quotes.
      ```plaintext
         OPENAI_API_KEY = ""
     ```
@@ -166,10 +168,12 @@ Propuesta para reforzar la cultura del reciclaje, la cual se basa en los articul
         npm i -D nodemon
     ```
 
-<a id = "env"></a>
+<a id = "env2"></a>
 
 ### Configuración archivo .env
-- Inserta tu apikey dentro de las comillas dobles
+- Crea un archivo .env en la raíz de tu proyecto.
+
+- Inserta el siguiente teto dentro del archivo archivo .env y  tu api key dentro de las comillas dobles.
      ```plaintext
         OPENAI_API_KEY = ""
     ```
