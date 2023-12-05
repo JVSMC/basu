@@ -1,0 +1,34 @@
+{
+    "listOfProjects": {
+        "project1": {
+            "nameProject": "Reciclaje de plástico",
+            "description": "Este proyecto consiste en recolectar botellas de plástico para posteriormente reciclarlas y convertirlas en nuevos productos. Se utilizan materiales como botellas de plástico, tijeras, pegamento y pintura.",
+            "items": [
+                "Botellas de plástico",
+                "Tijeras",
+                "Pegamento",
+                "Pintura"
+            ]
+        },
+        "project2": {
+            "nameProject": "Huerto urbano",
+            "description": "El huerto urbano es un proyecto que busca promover la agricultura en áreas urbanas. Se utilizan materiales como tierra, semillas, macetas y fertilizantes.",
+            "items": [
+                "Tierra",
+                "Semillas",
+                "Macetas",
+                "Fertilizantes"
+            ]
+        },
+        "project3": {
+            "nameProject": "Compostaje",
+            "description": "El compostaje es un proceso de descomposición de materia orgánica para producir abono natural. Se utilizan materiales como restos de comida, hojas secas, tierra y un recipiente para compostaje.",
+            "items": [
+                "Restos de comida",
+                "Hojas secas",
+                "Tierra",
+                "Recipiente para compostaje"
+            ]
+        }
+    }
+}
