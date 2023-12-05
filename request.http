@@ -1,0 +1,22 @@
+GET http://localhost:3000/ HTTP/1.1
+
+###
+POST http://localhost:3000/create-product HTTP/1.1
+Content-Type: application/json
+
+{
+    "bodyItems": {
+        "cereal": {
+            "tamaño": 2
+        },
+        "Jugo": {
+            "tamaño": 6            
+        },
+        "Papas": {
+            "tamaño": 6            
+        },
+        "Leche": {
+            "tamaño": 6            
+        }
+    }
+}
