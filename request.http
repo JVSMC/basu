@@ -5,18 +5,74 @@ POST http://localhost:3000/create-product HTTP/1.1
 Content-Type: application/json
 
 {
-    "bodyItems": {
-        "cereal": {
-            "tamaño": 2
-        },
-        "Jugo": {
-            "tamaño": 6            
-        },
-        "Papas": {
-            "tamaño": 6            
-        },
-        "Leche": {
-            "tamaño": 6            
-        }
-    }
+    "products": [
+      {
+        "nameItem": "Leche",
+        "containerShape": "Botella",
+        "material": "Plástico",
+        "amount": 2
+      },
+      {
+        "nameItem": "Pan",
+        "containerShape": "Bolsa",
+        "material": "Papel",
+        "amount": 1
+      },
+      {
+        "nameItem": "Arroz",
+        "containerShape": "Caja",
+        "material": "Cartón",
+        "amount": 3
+      },
+      {
+        "nameItem": "Tomate enlatado",
+        "containerShape": "Lata",
+        "material": "Metal",
+        "amount": 4
+      },
+      {
+        "nameItem": "Jabón líquido",
+        "containerShape": "Botella",
+        "material": "Plástico",
+        "amount": 1
+      },
+      {
+        "nameItem": "Manzanas",
+        "containerShape": "Malla",
+        "material": "Plástico",
+        "amount": 5
+      },
+      {
+        "nameItem": "Cereal",
+        "containerShape": "Caja",
+        "material": "Cartón",
+        "amount": 2
+      },
+      {
+        "nameItem": "Aceite de oliva",
+        "containerShape": "Botella",
+        "material": "Vidrio",
+        "amount": 1
+      },
+      {
+        "nameItem": "Papel higiénico",
+        "containerShape": "Paquete",
+        "material": "Papel",
+        "amount": 3
+      },
+      {
+        "nameItem": "Yogur",
+        "containerShape": "Envase",
+        "material": "Plástico",
+        "amount": 4
+      }
+    ]
+}
+
+###
+POST http://localhost:3000/create-image HTTP/1.1
+Content-Type: application/json
+
+{
+    
 }

@@ -1,34 +1,31 @@
 {
-    "listOfProjects": {
-        "project1": {
-            "nameProject": "Reciclaje de plástico",
-            "description": "Este proyecto consiste en recolectar botellas de plástico para posteriormente reciclarlas y convertirlas en nuevos productos. Se utilizan materiales como botellas de plástico, tijeras, pegamento y pintura.",
-            "items": [
-                "Botellas de plástico",
-                "Tijeras",
-                "Pegamento",
-                "Pintura"
-            ]
-        },
-        "project2": {
-            "nameProject": "Huerto urbano",
-            "description": "El huerto urbano es un proyecto que busca promover la agricultura en áreas urbanas. Se utilizan materiales como tierra, semillas, macetas y fertilizantes.",
-            "items": [
-                "Tierra",
-                "Semillas",
-                "Macetas",
-                "Fertilizantes"
-            ]
-        },
-        "project3": {
-            "nameProject": "Compostaje",
-            "description": "El compostaje es un proceso de descomposición de materia orgánica para producir abono natural. Se utilizan materiales como restos de comida, hojas secas, tierra y un recipiente para compostaje.",
-            "items": [
-                "Restos de comida",
-                "Hojas secas",
-                "Tierra",
-                "Recipiente para compostaje"
-            ]
-        }
+  "listOfProjects": [
+    {
+      "name": "Macetas colgantes",
+      "description": "Proyecto para crear macetas colgantes utilizando materiales reciclables",
+      "items": [
+        "Botella de plástico",
+        "Cuerda de cáñamo",
+        "Pintura en aerosol"
+      ]
+    },
+    {
+      "name": "Lámparas de papel reciclado",
+      "description": "Proyecto para crear lámparas decorativas utilizando papel reciclado",
+      "items": [
+        "Papel de periódico",
+        "Pegamento ecológico",
+        "Bombilla LED"
+      ]
+    },
+    {
+      "name": "Jarrones de vidrio reciclado",
+      "description": "Proyecto para crear jarrones decorativos utilizando botellas de vidrio recicladas",
+      "items": [
+        "Botellas de vidrio",
+        "Pintura acrílica",
+        "Cuerda decorativa"
+      ]
     }
+  ]
 }

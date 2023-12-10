@@ -1,111 +1,22 @@
-{
-    "products": [
-        {
-            "Leche": {
-                "material": "plastico",
-                "amount": 3,
-                "containerShape": "botella"
-            }
-        },
-        {
-            "Pan": {
-                "material": "carton",
-                "amount": 2,
-                "containerShape": "caja"
-            }
-        },
-        {
-            "Arroz": {
-                "material": "papel",
-                "amount": 1,
-                "containerShape": "bolsa"
-            }
-        },
-        {
-            "Huevos": {
-                "material": "plastico",
-                "amount": 4,
-                "containerShape": "cartón"
-            }
-        },
-        {
-            "Jabón líquido": {
-                "material": "plastico",
-                "amount": 2,
-                "containerShape": "botella"
-            }
-        },
-        {
-            "Manzanas": {
-                "material": "carton",
-                "amount": 5,
-                "containerShape": "bolsa"
-            }
-        },
-        {
-            "Cereal": {
-                "material": "cardboard",
-                "amount": 2,
-                "containerShape": "caja"
-            }
-        },
-        {
-            "Aceite de oliva": {
-                "material": "glass",
-                "amount": 1,
-                "containerShape": "botella"
-            }
-        },
-        {
-            "Papel higiénico": {
-                "material": "papel",
-                "amount": 3,
-                "containerShape": "rollo"
-            }
-        },
-        {
-            "Yogur": {
-                "material": "plastico",
-                "amount": 4,
-                "containerShape": "envase"
-            }
-        },
-        {
-            "Zanahorias": {
-                "material": "plastico",
-                "amount": 2,
-                "containerShape": "bolsa"
-            }
-        },
-        {
-            "Refresco": {
-                "material": "plastico",
-                "amount": 3,
-                "containerShape": "botella"
-            }
-        },
-        {
-            "Tomate enlatado": {
-                "material": "metal",
-                "amount": 1,
-                "containerShape": "lata"
-            }
-        },
-        {
-            "Queso": {
-                "material": "plastico",
-                "amount": 2,
-                "containerShape": "envase"
-            }
-        },
-        {
-            "Papel aluminio": {
-                "material": "aluminum",
-                "amount": 1,
-                "containerShape": "rollo"
-            }
-        }
-    ]
-}
-
-
+[
+  {
+    "nameItem": "Leche",
+    "containerShape": "Caja",
+    "material": "Carton"
+  },
+  {
+    "nameItem": "Ramen",
+    "containerShape": "Bolsa",
+    "material": "Plastico"
+  },
+  {
+    "nameItem": "Cereal",
+    "containerShape": "Caja",
+    "material": "Carton"
+  },
+  {
+    "nameItem": "Refresco",
+    "containerShape": "Lata",
+    "material": "Aluminio"
+  }
+]
