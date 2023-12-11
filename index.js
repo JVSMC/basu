@@ -40,10 +40,10 @@ app.post('/create-product', async (req, res) => {
         const completion = await openai.chat.completions.create({
             messages: [{
                 role: "user",
-                content: `De acuerdo con la siguiente data de productos de supermercado ${bodyItems} genera un archivo JSON de productos decorativos reciclables. Crea el objeto 'listOfProjects', que contendrá la lista de proyectos como array. Cada proyecto, debe tener propiedades como 'name', 'description' e 'items'. En 'name' coloca el nombre del proyecto, en 'description', proporciona uan descripción del proyecto, y en 'items', incluye una lista de nombres de productos asociados a ese proyecto tomando como referencia la lista de productos de supermercado en los objetos 'containerShape' y 'meterial'. Realiza los proyectos en español`
+                content: `De acuerdo con la siguiente data de productos de supermercado ${bodyItems} genera un archivo JSON de productos decorativos reciclables. Crea el objeto 'listOfProjects', que contendrá la lista de proyectos como array. Cada proyecto, debe tener propiedades como 'name', 'description' e 'items'. En 'name' coloca el nombre del proyecto, en 'description', proporciona uan descripción del proyecto, y en 'items', incluye una lista de nombres de productos asociados a ese proyecto tomando como referencia la lista de productos de supermercado en los objetos 'containerShape' y 'meterial'. Realiza los proyectos en inglés`
             }],
             model: "gpt-3.5-turbo-1106",
-            "temperature": .3,
+            "temperature": .7,
             response_format: { "type": "json_object" },
         });
 
